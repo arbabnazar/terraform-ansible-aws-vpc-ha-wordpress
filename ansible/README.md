@@ -13,3 +13,5 @@ ansible-playbook site.yml -e@../secret/secure.yml -e@../terraform-aws/tendo-dev.
 where `secure.yml` contains secure information while `tendo-dev.yml` contain the dnsname of the RDS and this file will create during the terraform execution and it's name based on the values of these variables:
 - name
 - environment 
+
+**Note:** `terraform.py` is dynamic inventory created by [CiscoCloud](https://github.com/CiscoCloud/terraform.py)
