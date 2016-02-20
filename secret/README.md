@@ -1,0 +1,1 @@
+The `secure.yml` file will be used to overwrite the variables inside the role. This file must keep secure using ansible vault but I have leave it encrypted so that you can take an idea that what it's contain.
